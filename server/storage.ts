@@ -30,6 +30,8 @@ export class MemStorage implements IStorage {
       ...insertReading, 
       id,
       createdAt: new Date(),
+      feastDay: insertReading.feastDay || null,
+      readingType: insertReading.readingType || null,
     };
     this.readings.set(id, reading);
     return reading;
@@ -83,7 +85,7 @@ export class MemStorage implements IStorage {
 
     return {
       date,
-      feastDay: readings[0]?.feastDay,
+      feastDay: readings[0]?.feastDay || undefined,
       readings: readingsWithProgress,
     };
   }

@@ -8,17 +8,18 @@ import { insertReadingSchema } from "@shared/schema";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   
-  // Fetch and parse OCA readings for a specific date
-  app.get("/api/readings/:date", async (req, res) => {
+  // Fetch and parse OCA readings for current day
+  app.get("/api/readings/today", async (req, res) => {
     try {
-      const { date } = req.params;
+      const today = new Date();
+      const date = today.toISOString().split('T')[0];
       
       // Try to get from storage first
       let dailyReadings = await storage.getDailyReadingsWithProgress(date);
       
       // If no readings in storage, scrape from OCA
       if (dailyReadings.readings.length === 0) {
-        const scrapedData = await scrapeOCAReadings(date);
+        const scrapedData = await scrapeOCAReadingsToday();
         
         // Store scraped readings
         for (const reading of scrapedData.readings) {
@@ -45,9 +46,10 @@ export async function registerRoutes(app: Express): Promise<Server> {
   });
 
   // Update reading progress
-  app.post("/api/readings/:date/progress", async (req, res) => {
+  app.post("/api/readings/today/progress", async (req, res) => {
     try {
-      const { date } = req.params;
+      const today = new Date();
+      const date = today.toISOString().split('T')[0];
       const { readingId, completed } = req.body;
       
       if (!readingId || typeof completed !== 'boolean') {
@@ -66,10 +68,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
   return httpServer;
 }
 
-async function scrapeOCAReadings(date: string) {
-  // Parse date and format for OCA URL
-  const [year, month, day] = date.split('-');
-  const url = `https://www.oca.org/readings/daily/${year}/${month}/${day}/1`;
+async function scrapeOCAReadingsToday() {
+  // Use the simpler current day URL
+  const url = `https://www.oca.org/readings`;
   
   try {
     const response = await axios.get(url, {

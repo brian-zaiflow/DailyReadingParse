@@ -6,17 +6,10 @@ import { Progress } from "@/components/ui/progress";
 import { AlertCircle, RotateCcw, Check } from "lucide-react";
 import { apiRequest } from "@/lib/queryClient";
 import { DailyReadingsData, ProgressUpdate } from "@/lib/types";
-import { useState, useEffect } from "react";
+
 
 export default function ReadingsPage() {
-  const [currentDate, setCurrentDate] = useState("");
   const queryClient = useQueryClient();
-
-  useEffect(() => {
-    const today = new Date();
-    const dateStr = today.toISOString().split('T')[0];
-    setCurrentDate(dateStr);
-  }, []);
 
   const { 
     data: dailyReadings, 
@@ -24,22 +17,21 @@ export default function ReadingsPage() {
     error, 
     refetch 
   } = useQuery<DailyReadingsData>({
-    queryKey: ["/api/readings", currentDate],
-    enabled: !!currentDate,
+    queryKey: ["/api/readings/today"],
   });
 
   const updateProgressMutation = useMutation({
     mutationFn: async (update: ProgressUpdate) => {
       const response = await apiRequest(
         "POST",
-        `/api/readings/${currentDate}/progress`,
+        `/api/readings/today/progress`,
         update
       );
       return response.json();
     },
     onSuccess: () => {
       queryClient.invalidateQueries({
-        queryKey: ["/api/readings", currentDate],
+        queryKey: ["/api/readings/today"],
       });
     },
   });
@@ -48,8 +40,8 @@ export default function ReadingsPage() {
     updateProgressMutation.mutate({ readingId, completed });
   };
 
-  const formatDate = (dateStr: string) => {
-    const date = new Date(dateStr + 'T00:00:00');
+  const formatDate = () => {
+    const date = new Date();
     return date.toLocaleDateString('en-US', { 
       weekday: 'long', 
       year: 'numeric', 
@@ -127,7 +119,7 @@ export default function ReadingsPage() {
             </h1>
             <div className="text-muted-foreground">
               <p className="text-lg font-medium" data-testid="text-current-date">
-                {currentDate ? formatDate(currentDate) : ''}
+                {formatDate()}
               </p>
               {dailyReadings?.feastDay && (
                 <p className="text-sm" data-testid="text-feast-day">

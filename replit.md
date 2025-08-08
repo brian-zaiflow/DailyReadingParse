@@ -2,13 +2,15 @@
 
 ## Overview
 
-This is a full-stack web application that provides an interactive checklist for daily Orthodox Christian scripture readings. The app automatically fetches scripture readings from the Orthodox Church in America (OCA) website and allows users to track their progress through a modern, responsive interface.
+This is a full-stack web application that provides a simple, interactive checklist for daily Orthodox Christian scripture readings. The app automatically fetches today's scripture readings from the Orthodox Church in America (OCA) website and allows users to track their progress with persistent local storage.
 
-The application scrapes daily readings from OCA.org, stores them in a database, and provides a clean user interface for tracking reading completion with persistent progress tracking.
+The application scrapes current day readings from OCA.org, stores them temporarily in memory, and provides a clean, mobile-friendly interface for tracking reading completion. Progress is saved locally in the user's browser for a simple, personal experience.
 
 ## User Preferences
 
-Preferred communication style: Simple, everyday language.
+- **Communication style**: Simple, everyday language
+- **Application scope**: Keep it simple - focus on current day readings only, no date browsing
+- **Storage approach**: Local browser storage preferred over database complexity
 
 ## System Architecture
 
@@ -36,10 +38,11 @@ Preferred communication style: Simple, everyday language.
 - **Neon Database** integration configured for PostgreSQL hosting
 
 ### API Design
-- `GET /api/readings/:date` - Fetches daily readings with progress status
-- `POST /api/readings/:date/progress` - Updates reading completion status
-- Automatic data fetching and caching from OCA.org when not in storage
-- Progress tracking per individual reading item
+- `GET /api/readings/today` - Fetches current day's readings with progress status
+- `POST /api/readings/today/progress` - Updates reading completion status
+- Automatic data fetching from https://www.oca.org/readings (current day)
+- In-memory storage with progress tracking per individual reading item
+- Simple, focused design eliminating date browsing complexity
 
 ### State Management
 - **TanStack Query** for server state, caching, and background updates
