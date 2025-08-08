@@ -1,0 +1,576 @@
+
+<!DOCTYPE html>
+<!--[if IE 7]><html class="no-js ie7" lang=en><![endif]-->
+<!--[if gt IE 7]><html class=no-js lang=en><![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	
+	<link rel="stylesheet" href="https://use.typekit.net/jrf1ynh.css">
+	<link rel="stylesheet" href="/assets/css/v-1548/site.css">
+	<link rel="stylesheet" media="print" href="/assets/css/v-1/print.css" />
+	
+	<script src="https://assets.oca.org/js/pre8828cba.js"></script>
+	 <script>_gaq.push(['_trackPageview'])</script>
+	 <title>Scripture Readings - Orthodox Church in America</title>
+	 
+	
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/i/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/i/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/i/favicon-16x16.png">
+	<link rel="manifest" href="/assets/i/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/assets/i/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	 
+	 
+	 	<link rel="alternate" type="application/rss+xml" title="OCA News" href="/news/feed" />
+	 
+
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="https://assets.oca.org/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+	
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-K4ZNKHGVYN"></script>
+	<script>
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+  	gtag('config', 'G-K4ZNKHGVYN');
+	</script>
+
+	 
+
+	 
+	 <meta property="fb:app_id" content="317206868316569" />
+	 
+	 	<meta property="og:title" content="Scripture Readings" />
+	 
+	 <meta property="og:type" content="website">
+	 
+	 
+		<meta property="og:image" content="https://assets.oca.org/img/domes_sm.png">
+	
+	 <meta property="og:url" content="https://www.oca.org/readings/daily/2025/08/09/1">
+	 
+
+	 
+	 <meta name="twitter:site" content="@ocaorg">
+	 
+	 	<meta name="twitter:card" content="summary">
+	 
+</head>
+<body class="orthodoxy">
+	<div id="container">
+		<div id="container-inner">
+
+
+<header id="header" class="clearfix">
+
+<div class="accessibility">
+	<a id="skipToContent" class="visuallyhidden" href="#main">Skip to main content</a>
+	<a id="skipToNav" class="visuallyhidden" href="#navigation">Skip to main navigation</a>
+</div>
+
+<div id="utility" class="clearfix">
+	<ul>
+		<li><a href="/contact">Contact</a>
+		<li><a href="/site-map">Site Map</a>
+		
+	</ul>
+	<form method="post" action="https://www.oca.org/"  >
+<div class='hiddenFields'>
+<input type="hidden" name="ACT" value="6" />
+<input type="hidden" name="RES" value="" />
+<input type="hidden" name="meta" value="gch5ilR5uA36xe4s9HMFOltYW4QcXiAE+VMTPAwXw2EVQa4+TOCO5Ma2xRt59qXm0SKXE5lZFO7lM9zTq7MMqv2QoxHTRUOHMIyO8qoKkRGu23EHqF+pflcHCmvFB6y87fgZxODg6/a7l8nM72tYtiCo6JkuMaH1vxlbNSnBNsm2mqeENSvUBHk3JUZZzsk7znon4uodvfaIxx/b+2MQfWt5QNF0ZeOHZA7oC5TNZDsTIfFb84IApCjQiJUCB+dAvBshGSkIKIsSqAfrFaA1nkQtkexiH7g78WgkC6x55CccHAo356TWqsN/4Ce3JTuBGG8LoDxNsWBaUIrWJpOLaacxVmyQE1nM6XAMcx0s0iIxacKMRkNGX56BfGzWayJSOMWe39gcio77Skcl0rmayZVPblZqEWrAA2pYTNfZyNFdYsEXqL5DagUzNORu/cNIsl2C8kAePrwTcAvBPJszLTdzJgm51CQH9OX4HN6AiB7vSlXkMfm7DOBHQLJxONyahB5zFJw5b6Vg/rY/77jTDypxy9/oxTneC4jrf0wZLW6FdH3PM95ICnlPkaueH8qz" />
+<input type="hidden" name="site_id" value="1" />
+<input type="hidden" name="csrf_token" value="" />
+</div>
+
+
+		<label for="search">Search</label><input id="search" name="keywords" type="search" />
+	</form>
+</div>
+
+<div class="brand">
+	<a href="/"><img src="https://assets.oca.org/img/oca.svg" alt="logo" width="87" height="214" /></a>
+</div>
+
+<nav id="navigation">
+	<ul class="clearfix">
+		<li class="about">
+			<a href="/about">
+				<strong>About the OCA</strong>
+				
+			</a>
+				<ul class="dropdown">
+				
+				<li><a href="/holy-synod/bishops/the-most-blessed-tikhon">The Primate</a></li>
+				<li><a href="/holy-synod">The Holy Synod</a></li>
+				<li><a href="/history-archives/aacs">The All-American Council</a></li>
+				<li><a href="/about/metropolitan-council">Metropolitan Council</a></li>
+				
+				<li><a href="/about/chancery-staff">Chancery Staff</a></li>
+				<li><a href="/about/departments">Departments</a></li>
+				<li><a href="/about/boards-offices-commissions">Boards, Offices, &amp; Commissions</a></li>
+				<li><a href="/history-archives">History &amp; Archives</a></li>
+				
+				<li><a href="/about/documents">Documents &amp; Policies</a></li>
+				<!--<li><a href="/in-memoriam">In Memoriam</a></li>-->
+			</ul>
+		</li>
+		<li class="news-media">
+			<a href="/news">
+				<strong>News &amp; Media</strong>
+				
+			</a>
+			<ul class="dropdown">
+				<li><a href="/news">Recent News</a>
+				<li><a href="/media/photos">Photo Galleries</a>
+				<li><a href="/media/video">Featured Video</a>
+				<li><a href="/in-memoriam">In Memoriam</a>
+			</ul>
+		</li>
+		<li class="orthodoxy">
+			<a href="/orthodoxy">
+				<strong>The Orthodox Faith</strong>
+				
+			</a>
+			<ul class="dropdown">
+				<li><a href="/readings">Scripture Readings</a>
+				<li><a href="/fs">Feasts &amp; Saints</a>
+				<li><a href="/orthodoxy/the-orthodox-faith">The Orthodox Faith</a>
+				<!--<li><a href="/questions">Questions &amp; Answers</a>-->
+				<li><a href="/orthodoxy/recommended-readings">Recommended Readings</a>
+				<li><a href="/orthodoxy/prayers">Common Prayers</a>
+			</ul>
+		</li>
+
+		<li class="directories">
+			<a href="/directories">
+				<strong>Directories</strong>
+				
+			</a>
+			<ul class="dropdown">
+				<li><a href="/dioceses">Dioceses</a>
+				<li><a href="/parishes">Parishes</a>
+				<li><a href="/clergy">Clergy</a>
+				<li><a href="/directories/monastic-communities">Monastic Communities</a>
+				<li><a href="/directories/military-chaplains">Military Chaplains</a>
+				<li><a href="/directories/seminaries">Seminaries</a>
+				<li><a href="/directories/organizations">Orthodox Organizations</a>
+				<li><a href="https://www.oca.org/about/metochion">Podvorie</a></li>
+				<!--<li><a href="/directories/na-churches">Churches in North America</a>
+				<li><a href="/directories/world-churches">World Orthodox Churches</a>-->
+			</ul>
+		</li>
+
+		<li class="work">
+			<a href="/work">
+				<strong>Work of the Church</strong>
+				
+			</a>
+			<ul class="dropdown">
+				
+				<li><a href="/liturgics">Liturgical Music &amp; Texts</a>
+				<li><a href="/reflections">Reflections in Christ</a>
+				<li><a href="/parish-ministry">Parish Ministry Resources</a>
+			</ul>
+		</li>
+
+	</ul>
+</nav>
+</header>
+
+
+<div id="main" role="main">
+	
+		<div id="content" class="clearfix">
+		<hr />
+		<div class="body-w-sidebar clearfix">
+			<div id="main-col">
+				<div id="main-col-contents">
+					<header id="content-header">
+
+
+<script src="/assets/paschalib/readings.js"></script>
+<style>
+  dl.reading dt {
+    position: absolute;
+    width: 2.5em;
+    font-size: 11.75px;
+  }
+  dl.reading dd {
+    margin-left: 2.5em;
+    font-size: 15px;
+	line-height: 1.4em;
+    color: #444;
+  }
+</style>
+	<p class="breadcrumbs">
+		<a href="/">Home</a> /
+		<a href="/orthodoxy">The Orthodox Faith</a> /
+	</p>
+	<h1>Scripture Readings</h1>
+	<h2><!-- debug "empty needle" message: array(1) {
+  [0]=>
+  string(0) ""
+}
+int(1)
+ --><!-- debug "empty needle" message: <!-- debug "empty needle" message: <!-- debug "empty needle" message: <!-- debug "empty needle" message: <!-- debug "empty needle" message: <!-- debug "empty needle" message: <!-- debug "empty needle" message: <!-- debug "empty needle" message: <!-- debug "empty needle" message: <!-- debug "empty needle" message: array(10) {
+  [0]=>
+  string(13) "Glorification"
+  [1]=>
+  string(2) "of"
+  [2]=>
+  string(4) "Ven."
+  [3]=>
+  string(6) "Herman"
+  [4]=>
+  string(2) "of"
+  [5]=>
+  string(7) "Alaska,"
+  [6]=>
+  string(12) "Wonderworker"
+  [7]=>
+  string(2) "of"
+  [8]=>
+  string(3) "All"
+  [9]=>
+  string(7) "America"
+}
+int(10)
+ -->Saturday, August 9, 2025</h2>
+</header>
+
+<section>
+	<ul>
+			<li><a href="/readings/daily/2025/08/09/1">Wisdom of Solomon 3:1-9</a></li>
+			<li><a href="/readings/daily/2025/08/09/2">Wisdom of Solomon 5:15-6:3</a></li>
+			<li><a href="/readings/daily/2025/08/09/3">Wisdom of Solomon 4:7-15</a></li>
+			<li><a href="/readings/daily/2025/08/09/4">Matthew 11:27-30</a></li>
+			<li><a href="/readings/daily/2025/08/09/5">Galatians 5:22-6:2</a></li>
+			<li><a href="/readings/daily/2025/08/09/6">Luke 6:17-23</a></li>
+			<li><a href="/readings/daily/2025/08/09/7">Romans 14:6-9</a></li>
+			<li><a href="/readings/daily/2025/08/09/8">Matthew 15:32-39</a></li>
+		</ul>
+
+
+	
+	
+			<article>
+				<h2>
+				  Wisdom of Solomon 3:1-9				  <em>(Vespers, 1st  reading)</em>
+				</h2>
+				<dl class="reading">
+											<dt>1</dt>
+						<dd>But the souls of the righteous are in the hand of God, and no torment will ever touch them.</dd>
+											<dt>2</dt>
+						<dd>In the eyes of the foolish they seemed to have died, and their departure was thought to be affliction,</dd>
+											<dt>3</dt>
+						<dd>and their going from us to be their destruction; but they are at peace.</dd>
+											<dt>4</dt>
+						<dd>For though in the sight of men they were punished, their hope is full of immortality.</dd>
+											<dt>5</dt>
+						<dd>Having been disciplined a little, they will receive great good, because God tested them and found them worthy of himself;</dd>
+											<dt>6</dt>
+						<dd>like gold in the furnace he tried them, and like a sacrificial burnt offering he accepted them.</dd>
+											<dt>7</dt>
+						<dd>In the time of their visitation they will shine forth, and will run like sparks through the stubble.</dd>
+											<dt>8</dt>
+						<dd>They will govern nations and rule over peoples, and the Lord will reign over them for ever.</dd>
+											<dt>9</dt>
+						<dd>Those who trust in him will understand truth, and the faithful will abide with him in love, because grace and mercy are upon his elect, and he watches over his holy ones.</dd>
+									</dl>
+			</article>
+		
+<footer class="article-footer clearfix">
+	<div class="previous">
+	  <a href="/readings/daily/2025/08/08">
+	    <h2>Previous Day</h2>
+	  </a>
+	</div>
+	<div class="next">
+	  <a href="/readings/daily/2025/08/10">
+	    <h2>Next Day</h2>
+	  </a>
+	</div>
+</footer>
+
+</div></div>
+
+<aside id="sidebar">
+	<div id="sidebar-contents">
+		<nav id="sub-navigation">
+			<h2>Search for a reading by date</h2>
+			<ul>
+				<li>
+					<form action="/actions/reading_date.php" method="get">
+						<select name="month">
+							<option value=1>January
+<option value=2>February
+<option value=3>March
+<option value=4>April
+<option value=5>May
+<option value=6>June
+<option value=7>July
+<option value=8 selected>August
+<option value=9>September
+<option value=10>October
+<option value=11>November
+<option value=12>December
+						</select>
+						<select name="day">
+							<option>1
+<option>2
+<option>3
+<option>4
+<option>5
+<option>6
+<option>7
+<option>8
+<option selected>9
+<option>10
+<option>11
+<option>12
+<option>13
+<option>14
+<option>15
+<option>16
+<option>17
+<option>18
+<option>19
+<option>20
+<option>21
+<option>22
+<option>23
+<option>24
+<option>25
+<option>26
+<option>27
+<option>28
+<option>29
+<option>30
+<option>31
+						</select>
+						<input type="text" name="year" value="2025" size="5">
+						<input type="submit" name="Search">
+					</form>
+				</li>
+			</ul>
+			
+
+			<h2>Search for a reading by<br />name / chapter / verse</h2>
+			<ul>
+				<li>
+					<form action="/actions/reading_reference.php" method="get">
+						<select name="book">
+							<option value="matthew">Matt.
+<option value="mark">Mark
+<option value="luke">Luke
+<option value="john">John
+<option value="acts">Acts
+<option value="romans">Romans
+<option value="1-corinthians">1 Cor.
+<option value="2-corinthians">2 Cor.
+<option value="galatians">Gal.
+<option value="ephesians">Eph.
+<option value="phillippians">Philip.
+<option value="colossians">Col.
+<option value="1-thessalonians">1 Thess.
+<option value="2-thessalonians">2 Thess.
+<option value="1-timothy">1 Tim.
+<option value="2-timothy">2 Tim.
+<option value="titus">Titus
+<option value="philemon">Phile.
+<option value="hebrews">Heb.
+<option value="james">James
+<option value="1-peter">1 Peter
+<option value="2-peter">2 Peter
+<option value="1-john">1 John
+<option value="2-john">2 John
+<option value="3-john">3 John
+<option value="jude">Jude
+						</select>
+						<select name="chapter">
+							<option>1
+<option>2
+<option>3
+<option>4
+<option>5
+<option>6
+<option>7
+<option>8
+<option>9
+<option>10
+<option>11
+<option>12
+<option>13
+<option>14
+<option>15
+<option>16
+<option>17
+<option>18
+<option>19
+<option>20
+<option>21
+<option>22
+<option>23
+<option>24
+<option>25
+<option>26
+<option>27
+<option>28
+						</select>
+						<select name="verse">
+							<option>
+<option>1
+<option>2
+<option>3
+<option>4
+<option>5
+<option>6
+<option>7
+<option>8
+<option>9
+<option>10
+<option>11
+<option>12
+<option>13
+<option>14
+<option>15
+<option>16
+<option>17
+<option>18
+<option>19
+<option>20
+<option>21
+<option>22
+<option>23
+<option>24
+<option>25
+<option>26
+<option>27
+<option>28
+<option>29
+<option>30
+<option>31
+<option>32
+<option>33
+<option>34
+<option>35
+<option>36
+<option>37
+<option>38
+<option>39
+<option>40
+<option>41
+<option>42
+<option>43
+<option>44
+<option>45
+<option>46
+<option>47
+<option>48
+<option>49
+<option>50
+<option>51
+<option>52
+<option>53
+<option>54
+<option>55
+<option>56
+<option>57
+<option>58
+<option>59
+<option>60
+<option>61
+<option>62
+<option>63
+<option>64
+<option>65
+<option>66
+<option>67
+<option>68
+<option>69
+<option>70
+<option>71
+<option>72
+<option>73
+<option>74
+<option>75
+<option>76
+<option>77
+<option>78
+<option>79
+<option>80
+						</select>
+						<input type="hidden" name="segment1" value="readings">
+						<input type="submit" value="Search">
+					</form>
+				</li>
+			</ul>
+
+			<h2><a href="/readings">Scripture Readings</a></h2>
+			<ul>
+				<li><a href="/readings">Scripture Readings</a></li>
+				<li><a href="/readings/monthly">Monthly Lectionaries</a></li>
+				<li><a href="/fs">Feasts and Saints</A></li>
+				<li><a href='/orthodoxy/prayers/before-reading-the-holy-scripture'>Prayer before Reading the Holy Scripture</a></li>
+				<li><a href='/scripture/how-to-read-the-bible'>&ldquo;How to Read the Bible&rdquo; by Metropolitan Kallistos of Diokleia</a></li>
+			</ul>
+			<p><em>The New King James Version text of the Old and New Testament is provided courtesy of the Thomas Nelson Publishing Company for use only on the web site of The Orthodox Church in America. Some modifications have been made to better match the received Septuagint texts that are in liturgical use in the Church.</em></p>
+		</nav>
+	</div>
+</aside>
+
+</div>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<hr id="footer-border">
+
+<footer id="footer">
+	<div id="footer-inner">
+		<div id="footer-contents">
+			<h1>The Orthodox Church in America</h1>
+			<p>The Mission of The Orthodox Church in America (OCA), the local autocephalous Orthodox Christian Church, is to be faithful in fulfilling the commandment of Christ to &ldquo;Go into all the world and make disciples of all nations, baptizing them in the name of the Father, and of the Son and of the Holy Spirit&hellip;&rdquo;</p>
+			<a class="button" href="/history-archives"><span>Learn more about the OCA</span></a>
+			<div class="domes"></div>
+		</div>
+	</div>
+</footer>
+
+<footer id="bottom">
+	<div id="bottom-inner" class="clearfix">
+		<!--<p class="tag">Founded in 1794 &mdash; Granted Autocephaly in 1970</p>-->
+		<hr />
+		<p class="copyright">Copyright The Orthodox Church in America™ (OCA™)<br>&copy; 1996&ndash;2025. All rights reserved.</p>
+		<p class="utility" style="text-align:right">
+			<a href="https://twitter.com/ocaorg" target="_blank">X (Twitter)</a> |
+			<a href="https://www.facebook.com/orthodoxchurchinamerica" target="_blank">Facebook</a> |
+			<a href="https://www.instagram.com/orthodoxchurchamerica/" target="_blank">Instagram</a> |
+			<a href="https://www.youtube.com/c/OrthodoxChurchinAmerica-OCA/" target="_blank">YouTube</a> |
+            <a href="https://t.me/orthodoxchurchamerica" target="_blank">Telegram</a><br>
+			<a href="/contact">Contact</a> |
+			<a href="/site-map">Site Map</a> |
+			<a href="/search">Search</a>
+		</p>
+		
+	</div>
+</footer>
+
+</div>
+
+<script>
+	(function() {var d='script';var c=document.createElement(d);c.src="https://assets.oca.org/js/v-7/combined_v6.js";
+	var s=document.getElementsByTagName(d)[0];s.parentNode.insertBefore(c,s);})();
+</script>
+
+<script>_gaq.push(['_trackTiming','Other Metrics','Database Queries',16,window.location.pathname])</script>
+</html>
