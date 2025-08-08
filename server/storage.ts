@@ -19,12 +19,29 @@ export class MemStorage implements IStorage {
   }
 
   async getReadingsByDate(date: string): Promise<Reading[]> {
-    return Array.from(this.readings.values()).filter(
+    const readings = Array.from(this.readings.values()).filter(
       (reading) => reading.date === date,
     );
+    
+    // Remove duplicates based on title and URL
+    const uniqueReadings = readings.filter((reading, index, self) =>
+      index === self.findIndex(r => r.title === reading.title && r.url === reading.url)
+    );
+    
+    return uniqueReadings;
   }
 
   async createReading(insertReading: InsertReading): Promise<Reading> {
+    // Check if reading already exists by title and URL for this date
+    const existingReadings = await this.getReadingsByDate(insertReading.date);
+    const duplicate = existingReadings.find(r => 
+      r.title === insertReading.title && r.url === insertReading.url
+    );
+    
+    if (duplicate) {
+      return duplicate;
+    }
+    
     const id = randomUUID();
     const reading: Reading = { 
       ...insertReading, 
