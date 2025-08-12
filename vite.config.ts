@@ -14,5 +14,5 @@ export default defineConfig({
     outDir: path.resolve(process.cwd(), "dist"),
     emptyOutDir: true,
   },
-  base: "./",
+  base: process.env.NODE_ENV === 'production' ? '/DailyReadingParse/' : '/',
 });
