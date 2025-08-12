@@ -1,43 +1,47 @@
-import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { AlertCircle, RotateCcw, Check } from "lucide-react";
-import { apiRequest } from "@/lib/queryClient";
-import { DailyReadingsData, ProgressUpdate } from "@/lib/types";
+import { getTodayReadings, updateReadingProgress, DailyReadingsData } from "@/lib/readingsService";
 
 
 export default function ReadingsPage() {
-  const queryClient = useQueryClient();
+  const [dailyReadings, setDailyReadings] = useState<DailyReadingsData | null>(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  const { 
-    data: dailyReadings, 
-    isLoading, 
-    error, 
-    refetch 
-  } = useQuery<DailyReadingsData>({
-    queryKey: ["/api/readings/today"],
-  });
+  const fetchReadings = async () => {
+    try {
+      setIsLoading(true);
+      setError(null);
+      const readings = await getTodayReadings();
+      setDailyReadings(readings);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to fetch readings');
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
-  const updateProgressMutation = useMutation({
-    mutationFn: async (update: ProgressUpdate) => {
-      const response = await apiRequest(
-        "POST",
-        `/api/readings/today/progress`,
-        update
-      );
-      return response.json();
-    },
-    onSuccess: () => {
-      queryClient.invalidateQueries({
-        queryKey: ["/api/readings/today"],
-      });
-    },
-  });
+  useEffect(() => {
+    fetchReadings();
+  }, []);
 
   const handleCheckboxChange = (readingId: string, completed: boolean) => {
-    updateProgressMutation.mutate({ readingId, completed });
+    // Update localStorage
+    updateReadingProgress(readingId, completed);
+    
+    // Update local state
+    if (dailyReadings) {
+      setDailyReadings({
+        ...dailyReadings,
+        readings: dailyReadings.readings.map(reading =>
+          reading.id === readingId ? { ...reading, completed } : reading
+        )
+      });
+    }
   };
 
   const formatDate = () => {
@@ -94,7 +98,7 @@ export default function ReadingsPage() {
                 Please check your internet connection and try again.
               </p>
               <Button 
-                onClick={() => refetch()} 
+                onClick={fetchReadings} 
                 className="bg-primary text-primary-foreground hover:bg-primary/90"
                 data-testid="button-retry"
               >
